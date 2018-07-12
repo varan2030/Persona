@@ -1,0 +1,23 @@
+.button {
+  background-color: #B37C57;
+  color: #fff;
+  margin: 10px;
+}
+
+.centered {
+  margin: 0 auto;
+  display: block;
+}
+
+.font {
+  font-family: 'Rubik', sans-serif;
+}
+
+.modal-header-pers {
+  background-color: #DDE2E3;
+  color: #333;
+}
+
+.modl-body {
+  color: #333;
+}

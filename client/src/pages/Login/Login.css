@@ -1,0 +1,20 @@
+#main {
+  padding-top: 50px;
+  height: 1100px;
+  background-image: url("/images/restaurant_interior_2.png");
+}
+
+.toggle-pers {
+  background-color: #B37C57;
+  color: #fff;
+}
+
+.button-pers {
+  background-color: #B37C57;
+  color: #fff;
+}
+
+.font {
+  font-family: 'Rubik', sans-serif;
+  color: #333;
+}

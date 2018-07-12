@@ -1,0 +1,77 @@
+.head {
+  height: 70px;
+  background: #3C455C;
+  color: #DDE2E3;
+  box-shadow: 0px 5px 5px #999;
+}
+
+.header-title {
+  margin-left: 10px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 44px;
+  display: inline;
+}
+
+.header-style {
+  background-color: #9AACB8;
+  color: #fff;
+}
+
+.list-overflow-container {
+  max-height: 545px;
+  width: 700px;
+  border: 1px #DDDDDD solid;
+  border-radius: 4px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.list-overflow-container ul {
+  margin: 0;
+}
+
+.list-overflow-container li {
+  border-radius: 0px;
+  border-left: none;
+  border-right: none;
+}
+
+.list-overflow-container li * {
+  cursor: pointer;
+}
+
+.list-overflow-container li a {
+  color: #2A878C;
+}
+
+.list-overflow-container li:first-child {
+  border-top: none;
+}
+
+.list-overflow-container li:last-child {
+  border-bottom: none;
+}
+
+.logo {
+  height: 42px;
+  margin: 0 5px 20px 15px;
+}
+
+.main-container {
+  padding-top: 20px;
+  font-family: 'Rubik', sans-serif;
+  color: #333;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 4px;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: cover;
+}

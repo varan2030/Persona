@@ -1,0 +1,93 @@
+.button {
+  background-color: #B37C57;
+  color: #fff;
+  margin: 10px;
+}
+
+.card {
+ font-size: 15px;
+ cursor: pointer;
+}
+
+.capture-button {
+  background-color: #B37C57;
+  color: #fff;
+}
+
+.delete-btn {
+  float: right;
+  color: #e74944;
+}
+
+.dish {
+    position: relative;
+    background-color: #B37C57;
+    border: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.dish:after {
+    content: "";
+    background: #60412B;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.dish:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.font {
+  font-family: 'Rubik', sans-serif;
+  color: #333;
+}
+
+.form-input-pers {
+  width: 250px;
+  margin: 10px auto;
+}
+
+.item{
+    width: 460px;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.tableImage {
+    height: 90px;
+    width: 120px;
+}
+
+.top-margin-15 {
+  margin-top: 15px;
+}
+
+.username {
+  display: inline;
+}
+
+
+
+
+
+
